@@ -1,0 +1,208 @@
+@font-face {
+    font-family: "amazon-lt";
+    src: url(./AmazonEmber_Lt.woff);
+}
+@font-face {
+    font-family: "amazon-rg";
+    src: url(./AmazonEmber_Rg.woff);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: amazon-lt;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    /* width: 100vw; */
+}
+/* ==========CABEÇALHO============= */
+header{
+    display: flex;
+    background-color: #00050d;
+    justify-content: center;
+    align-items: center;
+    padding: 5.rem;
+}
+header > nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.6rem;
+    width: 90%;
+}
+header > nav > img{
+    width: 12.8rem;
+}
+header > nav > a{
+    color: #AAAAAA;
+    font-size: 1.76rem;
+    padding: 0 1.76rem;
+    font-weight: 700;
+}
+main{
+    
+}
+/* ==========banner-1=============== */
+
+.banner-1{
+    display: flex;
+    background-image:url(./BANNER-1.jpg);
+    background-size: cover;
+    height: 67.2rem;
+    /* background-position: center; */
+    /* background-repeat: no-repeat;
+     */
+
+}
+.banner-1 img{
+   width: 100%;
+}
+.filmes-serie{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 6.8rem;
+    width: 54rem;
+    color: white;
+    justify-content: center;
+    font-size: 1.6rem;
+
+
+}
+.filmes-serie > h1{
+    font-size: 4rem;
+    padding: 2rem 0rem;
+}
+.filmes-serie a{
+    text-align: center;
+    background-color: #0F79AF;
+    padding: 1.4rem;
+    margin: 2rem 7rem;
+    color: white;
+    font-weight: 700;
+
+}
+.filmes-serie h2{
+    text-align: center;
+}
+/* ==================PARTE 2================= */
+.canais{
+    display: flex;
+}
+.textos{
+    padding: 3.5rem;
+    font-size: 1.6rem;
+
+}
+.canais h1{
+    font-size: 4rem;
+}
+.canais img{
+    max-width: 16rem;
+    /* height: 11rem; */   
+}
+.logos-t1{
+    padding: 1rem 5.6rem;
+    transition:1s;   
+}
+.logos-t1 > img{
+    padding: .1rem;
+}
+.logos-t1 > img:hover{
+    box-shadow: 0rem 0rem 3rem black;
+}
+.textos{
+    padding-top: 10rem ;
+    display: block; 
+}
+.textos p{
+    padding-top: 3rem;
+}
+/* ==================PARTE 3=================== */
+#banner{
+    display: flex;
+    background-image:url(./BANNER-2.jpg);
+    background-size: cover;
+    height: 67.2rem;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+#banner .texto-2{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+     width: 47rem;
+     height: 100%;
+     padding-left: 1.2rem;
+     padding-right: 1.2rem;
+    color: white;
+    gap: 3rem;
+    font-size: 1.6rem;
+   
+}
+#banner  h1{
+    font-size: 4rem;
+    color: white;
+    /* background-image: linear-gradient(to left, var(--preto) 85%, transparent); */
+}
+#banner a{
+    text-align: center;
+    background-color: #0F79AF;
+    padding: 1.4rem;
+    margin-right: 20rem;
+    color: white;
+    font-weight: 700;
+
+}
+/* =========================PARTE 3======================= */
+#banner-3{
+    padding: 0px 5rem;
+}
+#banner-3 ul{
+    display: flex;
+    
+}
+#banner-3 li{
+    text-align: center;
+    padding: 3rem;
+    gap: 1rem;
+
+}
+#banner-3 h2{
+    font-size: 3.6rem;
+}
+#banner-3 p{
+    font-size: 1.6rem;
+}
+/* ==============RADAPÉ================= */
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #222222;
+    gap: .5rem;
+    padding: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img{
+    
+    height: 3.6rem;
+}
+footer li{
+    display: flex;
+    font-size: 1.6rem;
+    gap: 1.6rem;
+    color: #0f79af;
+    text-decoration: underline;
+}
+footer p{
+    color: #949494;
+    font-size: 1.6rem;
+}
